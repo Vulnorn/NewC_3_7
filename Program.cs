@@ -6,9 +6,10 @@ namespace NewC_3_7
     {
         static void Main(string[] args)
         {
+            char symbolSeparation = ' ';
             string lineWithText = "You win some";
 
-            string[] words = lineWithText.Split(' ');
+            string[] words = lineWithText.Split(symbolSeparation);
 
             foreach (string word in words)
             {
